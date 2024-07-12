@@ -61,13 +61,18 @@ header{
 /* Main page */
 .main-div{
     text-align: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    
+    /* background-color: rgba(13, 19, 33, 0.02); */
+    border-radius: 16px;
+    padding: 80px  100px;
 }
 
 main{
     margin: 75px 150px 90px;
-    background-color: rgba(13, 19, 33, 0.02);
+    /* background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
-    padding: 80px  100px;
+    padding: 80px  100px; */
 }
 
 main > div  p{
@@ -131,4 +136,41 @@ main > div  p{
 
 main > div > div h2{
     color: rgba(13, 19, 33, 0.7);
+}
+
+/* Main page 2nd part */
+
+.sub-div{
+    /* margin: 90px; */
+    /* text-align: center; */
+    margin-top: 90px;
+}
+.sub-div-01{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 144px 0 144px;
+}
+
+.sub-div-01 h2{
+    margin-bottom: 25px;
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+.sub-div-02{
+    padding: 32px;
+    width: 100%;
+    border: 1px solid  rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video{
+    border-radius: 16px;
 }

@@ -1,22 +1,32 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
 header{
     background-image: url(../assets/Hero-bg.png);
-    width: 1500px;
-    height: 720px;
 }
 
-.intro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.intro {
+    width: 60%;
+    margin: auto;
     text-align: center;
-  
-    
-   
+    padding-bottom: 45px;
 }
 
 .first-img{
@@ -32,6 +42,11 @@ header{
 
 .header1{
     font-weight:bolder ;
+    
+}
+.header2{
+    font-weight:800;
+    margin-bottom: 25px;
 }
 .p1-btn{
     background-color: #0D1321;
@@ -40,4 +55,80 @@ header{
     width: 244px;
     height: 65px;
     font-size: 20px;
+    cursor: pointer;
+}
+
+/* Main page */
+.main-div{
+    text-align: center;
+}
+
+main{
+    margin: 75px 150px 90px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    padding: 80px  100px;
+}
+
+main > div  p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.div-head{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.div-same{
+    display: flex;
+    /* background-color:white; */
+    margin-bottom: 32px;
+    border-radius: 16px;
+    padding: 48px;
+    justify-content: space-around;
+    /* justify-content:space-evenly; */
+    /* align-items:center; */
+   
+}
+.gradiant-right{
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+.gradiant-left{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+
+.div-same > div{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:space-evenly; */
+    text-align: left;
+    
+}
+
+.div-same  img{
+    width: 250px;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    max-width: 477px;
+}
+.btn{
+    max-width: 171px;
+    height: 47px;
+    background-color: #FFFFFF;
+    color: rgba(13, 19, 33, 0.7);
+    border-color: rgba(13, 19, 33, 0.7);
+    font-weight:600;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+main > div > div h2{
+    color: rgba(13, 19, 33, 0.7);
 }
